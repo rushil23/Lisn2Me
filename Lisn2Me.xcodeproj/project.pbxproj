@@ -13,6 +13,7 @@
 		42BD62F522A21002001F7BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BD62F422A21002001F7BBF /* Assets.xcassets */; };
 		42BD62F822A21002001F7BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BD62F622A21002001F7BBF /* LaunchScreen.storyboard */; };
 		42BD630322A21002001F7BBF /* Lisn2MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BD630222A21002001F7BBF /* Lisn2MeTests.swift */; };
+		42BD630E22A213A7001F7BBF /* PlayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BD630D22A213A7001F7BBF /* PlayService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		42BD62FE22A21002001F7BBF /* Lisn2MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lisn2MeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BD630222A21002001F7BBF /* Lisn2MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lisn2MeTests.swift; sourceTree = "<group>"; };
 		42BD630422A21002001F7BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BD630D22A213A7001F7BBF /* PlayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				42BD62F422A21002001F7BBF /* Assets.xcassets */,
 				42BD62F622A21002001F7BBF /* LaunchScreen.storyboard */,
 				42BD62F922A21002001F7BBF /* Info.plist */,
+				42BD630D22A213A7001F7BBF /* PlayService.swift */,
 			);
 			path = Lisn2Me;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				42BD62F022A21000001F7BBF /* ViewController.swift in Sources */,
 				42BD62EE22A21000001F7BBF /* AppDelegate.swift in Sources */,
+				42BD630E22A213A7001F7BBF /* PlayService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWHY24TNQT;
 				INFOPLIST_FILE = Lisn2Me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWHY24TNQT;
 				INFOPLIST_FILE = Lisn2Me/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
