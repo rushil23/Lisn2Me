@@ -1,2 +1,2 @@
-# Lisn2Me - Restarted Project
-Allows users to simultaneously play music using the MultipeerConnectivity framework
+# Lisn2Me - [Work in Progress]
+### An iOS app that allows users to simultaneously play music using the MultipeerConnectivity framework
